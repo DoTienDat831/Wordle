@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+
+    font-family: "JetBrains Mono", monospace;
+    background: #17181c;
+}
+
+
+/* Rows containers */
+.letters_container {
+    height: 65vh;
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+/* Inputs */
+.letters_container input {
+    width: 100px;
+    height: 50px;
+
+    font-size: 20px;
+}
+
+
+.check_btn {
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+}
+
+
+/* Check button */
+.the_check_btn {
+    width: 400px;
+    height: 50px;
+}
+
+
+.noti {
+    color: white;
+}
