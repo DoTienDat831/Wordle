@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+    background: #17181c;
+
+    font-family: "JetBrains Mono", monospace;
+}
+
+.lobby {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 40px;
+}
+
+.lobby h1 {
+    color: white;
+    font-size: 50px;
+}
+
+#start_btn {
+    width: 250px;
+    height: 60px;
+
+    font-size: 25px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
